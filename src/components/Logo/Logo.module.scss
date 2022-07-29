@@ -1,0 +1,24 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.125px;
+    line-height: 40px;
+
+    color: var(--color-black);
+
+    margin: 0;
+
+    span {
+        font-weight: 400;
+        color: var(--color-primary);
+    }
+}
