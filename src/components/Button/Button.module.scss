@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 15px;
+
+    background: none;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--color-green);
+    box-shadow: 0px 15px 30px rgba(25, 218, 140, 0.25);
+}
+
+.second {
+    border: 1px solid var(--color-black);
+
+    padding: 9px 58.5px;
+    height: 44px;
+
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
