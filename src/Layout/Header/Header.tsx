@@ -1,15 +1,15 @@
 import { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
-import Button from '../Button/Button';
-import Container from '../Container/Container';
-import Logo from '../Logo/Logo';
-import NavigationBar from '../NavigationBar/NavigationBar';
-import Space from '../Space/Space';
-import WrapperSpace from '../WrapperSpace/WrapperSpace';
+import Button from '../../components/UI/Button/Button';
+import Container from '../../components/UI/Container/Container';
+import Logo from '../../components/UI/Logo/Logo';
+import NavigationBar from '../../components/UI/NavigationBar/NavigationBar';
+import Space from '../../components/Space/Space';
+import WrapperSpace from '../../components/WrapperSpace/WrapperSpace';
 
 import styles from './Header.module.scss';
-import Intro from '../Intro/Intro';
-import Girl from '../Girl/Girl';
+import Intro from '../../components/Intro/Intro';
+import Girl from '../../components/Girl/Girl';
 
 import { ReactComponent as AirplanesIcon } from '../../assets/airplanes.svg';
 

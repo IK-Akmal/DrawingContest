@@ -1,0 +1,17 @@
+.advantage {
+    padding: 36px 0 94px 0;
+
+    background-image: url(./icon/bg.svg);
+    background-repeat: no-repeat;
+
+
+
+}
+
+.cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(445px, 1fr));
+    gap: 30px;
+    margin-top: 58px;
+
+}

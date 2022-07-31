@@ -1,7 +1,7 @@
-import Button from '../Button/Button';
-import Paragraph from '../Paragraph/Paragraph';
-import Timer from '../Timer/Timer';
-import Title from '../Title/Title';
+import Button from '../UI/Button/Button';
+import Paragraph from '../UI/Paragraph/Paragraph';
+import Timer from '../UI/Timer/Timer';
+import Title from '../UI/Title/Title';
 import styles from './Intro.module.scss';
 
 function Intro() {
