@@ -1,0 +1,15 @@
+.girl {
+    position: absolute;
+    left: 47%;
+    top: 58.94%;
+
+    cursor: pointer;
+    z-index: 1000000;
+}
+
+.panel {
+    position: absolute;
+    right: 42%;
+    bottom: 14%;
+    z-index: -1;
+}

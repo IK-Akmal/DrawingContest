@@ -1,6 +1,12 @@
 .btn {
-    border-radius: 15px;
+    font-family: 'Rubik';
 
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+
+    border-radius: 15px;
+    
     background: none;
     border: none;
     outline: none;
@@ -11,11 +17,17 @@
 .primary {
     background: var(--color-green);
     box-shadow: 0px 15px 30px rgba(25, 218, 140, 0.25);
+
+    padding: 18px 74.5px;
+    font-weight: 700;
+
+    color: var(--color-white);
+
 }
 
 .second {
     border: 1px solid var(--color-black);
-
+    font-weight: 400;
     padding: 9px 58.5px;
     height: 44px;
 
