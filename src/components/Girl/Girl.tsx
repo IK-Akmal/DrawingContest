@@ -8,6 +8,7 @@ function Girl() {
   const ref = useRef<SVGSVGElement>(null);
 
   const timeLine = useMemo(() => gsap.timeline({ paused: true }), []);
+
   useEffect(() => {
     timeLine
       .to(ref.current, { rotate: 24, onComplete: () => { timeLine.pause(); }, ease: 'power1.inOut' })
@@ -20,9 +21,8 @@ function Girl() {
             timeLine
               .to(
                 ref.current,
-                { rotate: 0, onComplete: () => { timeLine.pause(); }, ease: 'power1.in' },
-              )
-              .restart();
+                { rotate: 0, onComplete: () => { timeLine.restart().pause(); } },
+              );
           },
         },
       );
