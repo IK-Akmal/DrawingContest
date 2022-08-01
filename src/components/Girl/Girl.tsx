@@ -1,8 +1,8 @@
 import gsap from 'gsap';
 import { useEffect, useMemo, useRef } from 'react';
 import styles from './Girl.module.scss';
-import { ReactComponent as GirlIcon } from './girl.svg';
-import { ReactComponent as PanelIcon } from './panel.svg';
+import { ReactComponent as GirlIcon } from './icon/girl.svg';
+import { ReactComponent as PanelIcon } from './icon/panel.svg';
 
 function Girl() {
   const ref = useRef<SVGSVGElement>(null);
