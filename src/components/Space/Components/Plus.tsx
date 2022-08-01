@@ -18,7 +18,7 @@ function Plus({ className, timeLine }: SVGProps) {
         },
       )
       .to(svgRef.current, {
-        scale: 1.2, opacity: 0, duration: 2.4, ease: 'power1.int',
+        scale: 1.2, opacity: 0, duration: 3, ease: 'power1.int',
       });
 
     timeLine.add(timeLineClock, 1);

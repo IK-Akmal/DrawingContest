@@ -1,0 +1,161 @@
+.wrapper {
+
+    background: linear-gradient(180deg, #6693B4 0%, #8FEFEA 100%);
+
+    padding: 22px 24px;
+
+    flex-grow: 1;
+
+    max-width: 680px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.certificate {
+
+    background-color: var(--color-white);
+    background-image: url(./icon/clouds.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center 50px;
+
+    padding: 74px 40px 56px 40px;
+    font-weight: 400;
+    text-align: center;
+
+
+    position: relative;
+
+    z-index: 1;
+   
+    >div:first-child {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-family: 'Vollkorn';
+    }
+
+    p {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+}
+
+.title {
+    color: var(--color-green);
+    font-family: inherit;
+    font-size: 60px;
+    line-height: 122%;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: inherit;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.fullName {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 112.8%;
+
+    letter-spacing: 0.02em;
+
+    width: 100%;
+    font-family: inherit;
+    border-bottom: 2px solid var(--color-green);
+}
+
+.place {
+
+    font-size: 30px;
+    line-height: 42px;
+    font-family: inherit;
+    letter-spacing: 0.045em;
+
+    color: var(--color-green);
+}
+
+
+.description {
+
+    font-size: 16px;
+    line-height: 150%;
+    font-family: inherit;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.dateOfIssue {
+    display: inline-block;
+    font-family: 'Vollkorn';
+
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin-top: 65px;
+}
+
+.stamp {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -6.58px;
+    right: 11.43px;
+}
+
+.logo {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.125px;
+    line-height: 40px;
+
+    text-align: start;
+    color: var(--color-black);
+
+    margin: 0;
+
+    span {
+        font-weight: 400;
+        color: var(--color-primary);
+    }
+}
+
+.background {
+    position: absolute;
+
+    z-index: 0;
+
+    bottom: 0px;
+    left: -10px;
+}
+
+.landscape {
+    position: absolute;
+
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,23 @@
+.diploma {
+    padding-bottom: 156px;
+
+    background-image: url(./waves.svg);
+    background-repeat: no-repeat;
+    background-position-y: 262px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >div:first-child {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+
+        max-width: 500px;
+    }
+
+
+}

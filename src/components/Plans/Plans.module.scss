@@ -1,0 +1,41 @@
+.plan {
+
+    margin-top: 56px;
+    padding-top: 40px;
+    padding-bottom: 245px;
+    background-image: url(./icon/sky-bg.svg);
+}
+
+
+
+.wrapper {
+    margin-top: 87px;
+    position: relative;
+}
+
+.dottedLine {
+    margin-left: 70px;
+}
+
+.plane {
+    z-index: 3;
+}
+
+.plan1 {
+    top: -8%;
+    left: 0.3%;
+}
+
+.plan2 {
+    top: 29%;
+    left: 34%;
+}
+
+.plan3 {
+    bottom: 16.3%;
+    right: 3.3%;
+}
+
+.link {
+    color: var(--color-green);
+}

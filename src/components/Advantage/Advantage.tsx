@@ -12,6 +12,7 @@ import CertificationIcon from './img/certification.png';
 import GiftIcon from './img/gift.png';
 import EmailIcon from './img/email.png';
 import VKIcon from './img/vk.png';
+import Link from '../UI/Link/Link';
 
 function Advantage() {
   return (
@@ -39,7 +40,9 @@ function Advantage() {
             Бесплатный диплом на email — через 1 день после конкурса
           </Card>
           <Card img={VKIcon}>
-            Публикация работ победителей во ВКонтакте. Подписывайтесь!
+            Публикация работ победителей во ВКонтакте.
+            {' '}
+            <Link href="/#">Подписывайтесь!</Link>
           </Card>
         </div>
       </Container>
