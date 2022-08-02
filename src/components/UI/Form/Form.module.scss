@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    width: 540px;
+}
+
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkbox{
+    margin-top: 52px;
+}
+
+.privacyPolicy{
+    display: inline-block;
+    max-width: 450px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    gap: 165px;
+
+    svg{
+        align-items: flex-end;
+        overflow: visible;
+    }
+}

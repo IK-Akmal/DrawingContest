@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 import {
-  PropsWithChildren, useEffect, useMemo, useRef,
+  PropsWithChildren, useEffect, useRef,
 } from 'react';
 import classNames from 'classnames';
 import styles from './Plan.module.scss';
@@ -17,10 +17,10 @@ function Plan({
 }: PropsWithChildren<PlanProps>) {
   const ref = useRef<HTMLParagraphElement>(null);
 
-  const timeLine = useMemo(() => gsap.timeline({ paused: true, defaults: { duration: 2 } }), []);
+  const timeLine = useRef(gsap.timeline({ paused: true, defaults: { duration: 2 } }));
 
   useEffect(() => {
-    timeLine.fromTo(
+    timeLine.current.fromTo(
       ref.current,
       {
         x: 10,
@@ -36,7 +36,7 @@ function Plan({
 
   useEffect(() => {
     if (isShow) {
-      timeLine.play();
+      timeLine.current.play();
     }
   }, [isShow]);
 

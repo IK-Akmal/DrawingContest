@@ -3,10 +3,21 @@ import LinkProps from './Link.props';
 
 import styles from './Link.module.scss';
 
-function Link({ className, children, ...props }: LinkProps) {
+function Link({
+  className, variant = 'default', children, ...props
+}: LinkProps) {
   return (
+    <a
+      className={classNames(className, styles.link, {
+        [styles.default]: variant === 'default',
+        [styles.second]: variant === 'second',
+      })}
     // eslint-disable-next-line react/jsx-props-no-spreading
-    <a className={classNames(className, styles.link)} {...props}>{children}</a>
+      {...props}
+    >
+      {children}
+
+    </a>
   );
 }
 

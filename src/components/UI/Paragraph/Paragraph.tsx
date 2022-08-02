@@ -10,6 +10,7 @@ function Paragraph({
       className={classNames(className, styles.paragraph, {
         [styles.primary]: type === 'primary',
         [styles.second]: type === 'second',
+        [styles.gost]: type === 'gost',
       })}
             // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}

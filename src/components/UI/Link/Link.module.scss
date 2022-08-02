@@ -6,7 +6,15 @@
     line-height: initial;
     letter-spacing: inherit;
 
-    color: #FF946E;
+
 
     text-decoration-skip-ink: none;
+}
+
+.second {
+    color: var(--color-green)
+}
+
+.default {
+    color: #FF946E;
 }

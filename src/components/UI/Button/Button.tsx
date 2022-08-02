@@ -11,6 +11,7 @@ function Button({
       className={classNames(className, styles.btn, {
         [styles.primary]: type === 'primary',
         [styles.second]: type === 'second',
+        [styles.danger]: type === 'danger',
       })}
       ref={ref}
       // eslint-disable-next-line react/button-has-type
