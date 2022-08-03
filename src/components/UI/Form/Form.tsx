@@ -14,7 +14,7 @@ function Form() {
         <Input placeholder="Дата рождения" />
         <Input placeholder="Город" />
         <Input placeholder="Email" type="email" />
-        <Input placeholder="Пароль" type="password" />
+        <Input placeholder="Пароль" type="password" autoComplete="on" />
       </div>
       <CheckBox className={styles.checkbox}>
         <span className={styles.privacyPolicy}>

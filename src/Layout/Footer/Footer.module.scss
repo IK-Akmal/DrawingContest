@@ -1,0 +1,73 @@
+.footer {
+    padding-top: 70px;
+    padding-bottom: 64px;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ourSocialNetworks {
+        display: grid;
+        grid-template-columns: 45px 45px 45px;
+        grid-template-rows: 40px 1fr;
+        justify-items: center;
+        gap: 0px 22px;
+
+        p {
+            grid-column: 1/-1;
+        }
+
+        img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .btn {
+            grid-column: 1/-1;
+
+            padding: 24px;
+            
+            background-image: url(./img/arrow.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: var(--color-primary);
+            
+            border-radius: 50%;
+
+            filter: drop-shadow(0px 15px 30px rgba(218, 129, 25, 0.25));
+
+            cursor: pointer;
+        }
+    }
+
+    .navList {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .navItem {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        a {
+            color: var(--color-black);
+            text-decoration: none;
+        }
+    }
+}
+
+.copyright {
+    text-align: center;
+}

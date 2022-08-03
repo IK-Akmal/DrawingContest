@@ -6,6 +6,7 @@ import styles from './Space.module.scss';
 
 import { ReactComponent as StarsIcon } from './Icon/star.svg';
 import { ReactComponent as ZeroIcon } from './Icon/zero.svg';
+import { ReactComponent as OneIcon } from './Icon/one.svg';
 
 import BigPlanet from './Components/BigPlanet';
 import Elephant from './Components/Elephant';
@@ -42,6 +43,7 @@ function Space({ timeLine }: SpaceProps, ref: ForwardedRef<HTMLDivElement>) {
       <Division className={styles.division} timeLine={timeLine} />
       <Plus className={styles.plus} timeLine={timeLine} />
       <ZeroIcon className={styles.zero} />
+      <OneIcon className={styles.one} />
       <StarsIcon className={styles.stars} />
     </div>
   );
